@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "name": "springboot.license.generate",
+      "sourceType": "com.secretty.creator.config.LicenseCreatorProperties",
+      "type": "com.secretty.creator.config.LicenseCreatorProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "springboot.license.generate.storePath",
+      "type": "java.lang.String",
+      "description": "证书生成存放路径."
+    },
+    {
+      "name": "springboot.license.generate.privateKeyStorePath",
+      "type": "java.lang.String",
+      "description": "证书生成所需私钥文件存放路径."
+    }
+  ] }

@@ -1,0 +1,10 @@
+springboot:
+  license:
+    verify:
+      subject: license_demo
+      publicAlias: publicCert
+      publicKeysStorePath: /usr/local/license/publicCerts.keystore
+      storePass: public_password1234
+      licensePath: /usr/local/license/license/license.lic
+server:
+  port: 9808

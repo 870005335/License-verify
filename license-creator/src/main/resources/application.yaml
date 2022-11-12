@@ -1,0 +1,7 @@
+springboot:
+  license:
+    generate:
+      private-key-store-path: /usr/local/license/privateKeys.keystore
+      store-path: /usr/local/license
+server:
+  port: 9807
